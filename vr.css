@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+/* ===============================================Box============================================= */
+.main {
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(High-resolution_graphics_showing_the_potential.scale-100.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+.box{
+    height: 500px;
+    width: 20%;
+    /* background-color: red; */
+    backdrop-filter: blur(10px);
+    overflow: auto;
+    margin-left: 100px;
+  
+}
+.box button{
+    background-color: white;
+    color: black;
+}
+/* ========================================upper=============================================== */
+.upper {
+    height: 200px;
+    width: 100%;
+    background-image: url(1_JAgzQxVEN0SXUdV7nn-26g.png);
+    background-size: cover;
+}
+.lower{
+    height: 400px;
+    width: 100%;
+}
+/* ==========================================Button====================================== */
+button {
+    color: aliceblue;
+    background-color: rgb(251, 134, 0);
+    border-radius: 20px;
+    padding: 10px;  
+}
+h4{
+    font-size: 20px;
+}
